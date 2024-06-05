@@ -16,11 +16,4 @@ const subscriberSchema = new mongoose.Schema({
   }
 })
 
-// const Subscriber = mongoose.model('Subscriber', subscriberSchema);
-
-// const amadeus = new Subscriber({ name: 'Amadeus', subscribedToChannel: "music"});
-
-// amadeus.save()
-
-
 module.exports = mongoose.model('Subscriber', subscriberSchema)
