@@ -2,7 +2,7 @@ NB if you are NOT following the [2019 video tutorial](https://www.youtube.com/wa
 
 - You need to add a .env file to set DATABASE_URL to (e.g.) mongodb://localhost/subscribers.
 
-- For easy testing, install REST Client VS Code plugin and add a "route.rest" file.
+- For easy testing, install [REST Client VS Code plugin](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and add a "route.rest" file.
 
 Mongoose is now (2024) at version 8, and two minor changes have been made to the code.
 
